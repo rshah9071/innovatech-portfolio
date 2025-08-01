@@ -25,14 +25,14 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetId = this.getAttribute('data-scroll-to');
             if (targetId) {
                 sessionStorage.setItem('scrollToOnLoad', targetId);
-                // Allow default navigation to the target page (index2.html)
+                // Allow default navigation to the target page (index.html)
                 // The scrolling will happen on the target page's DOMContentLoaded
             }
         });
     });
 
     // 2. On page load, check if a scroll intent was stored
-    if (window.location.pathname.includes('index2.html') || window.location.pathname === '/') { // Check if it's the main page
+    if (window.location.pathname.includes('index.html') || window.location.pathname === '/') { // Check if it's the main page
         const scrollTargetId = sessionStorage.getItem('scrollToOnLoad');
         if (scrollTargetId) {
             sessionStorage.removeItem('scrollToOnLoad'); // Clear the flag immediately
