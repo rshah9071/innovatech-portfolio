@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,134 +16,167 @@
         <div class="container">
 <h1>Clickete Private Limited</h1>
 
-            <nav>
-                <ul>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#services">Our Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
+            <nav class="main-nav">
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li> <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="all-projects.html">Portfolio</a></li> <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <h2>Driving Innovation Through Software</h2>
-            <p>Your trusted partner for cutting-edge software development and digital transformation.</p>
-            <a href="#contact" class="button primary">Get a Free Quote</a>
-            <a href="#services" class="button secondary">Explore Services</a>
-        </div>
-    </section>
+    <section id="hero" class="hero-section">
+    <div class="container">
+        <h2>Empowering Businesses with Cutting-Edge IT Solutions</h2>
+        <p>
+            We deliver innovative software development, robust web platforms, and strategic IT consulting to drive your growth and efficiency.
+        </p>
+        <a href="#contact" class="button primary">Start Your Project Today</a>
+        <a href="#services" class="button secondary">Discover Our Services</a>
+    </div>
+</section>
 
     <main>
-        <section id="about-us" class="about-section">
-            <div class="container">
-<h2>About Clickete Private limited</h2>
-
-<                <p>We are a passionate team of software engineers, designers, and strategists dedicated to delivering innovative, high-quality digital solutions. With years of experience across various industries, we specialize in creating custom software that solves complex business challenges and drives growth.</p>
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <h3>5+</h3>
-                        <p>Years of Experience</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>100+</h3>
-                        <p>Successful Projects</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>95%</h3>
-                        <p>Client Satisfaction</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section id="about-us" class="about-us-section">
+    <div class="container">
+        <h2>About <span class="highlight">Clickete Private Limited</span></h2> <p>
+            At Clickete Private LImited, we are more than just an IT service provider; we are your strategic partner in navigating the digital landscape. With a passion for innovation and a commitment to excellence, we build tailored software and provide expert consulting that empowers businesses to thrive.
+        </p>
+        <p>
+            Our focus is on delivering scalable, secure, and user-centric solutions that not only meet today's demands but also anticipate tomorrow's challenges, ensuring your long-term success.
+        </p>
+        <a href="about.html" class="button secondary">Learn More About Our Journey</a>
+    </div>
+</section>
 
         <section id="services" class="services-section">
-            <div class="container">
-                <h2>Our Services</h2>
-                <p class="subtitle">Comprehensive solutions designed to accelerate your business.</p>
-                <div class="services-grid">
-                    <div class="service-item">
-                        <i class="fas fa-desktop"></i>
-                        <h3>Web Development</h3>
-                        <p>Crafting responsive, high-performance web applications and dynamic websites.</p>
-                    </div>
-                    <div class="service-item">
-                        <i class="fas fa-mobile-alt"></i>
-                        <h3>Mobile App Development</h3>
-                        <p>Building intuitive and engaging iOS and Android applications.</p>
-                    </div>
-                    <div class="service-item">
-                        <i class="fas fa-cloud"></i>
-                        <h3>Cloud Solutions</h3>
-                        <p>Designing and implementing scalable cloud infrastructure and services.</p>
-                    </div>
-                    <div class="service-item">
-                        <i class="fas fa-brain"></i>
-                        <h3>AI & Machine Learning</h3>
-                        <p>Leveraging AI to automate processes, gain insights, and enhance decision-making.</p>
-                    </div>
-                    <div class="service-item">
-                        <i class="fas fa-database"></i>
-                        <h3>Database Management</h3>
-                        <p>Expert setup, optimization, and maintenance of robust database systems.</p>
-                    </div>
-                    <div class="service-item">
-                        <i class="fas fa-shield-alt"></i>
-                        <h3>Cybersecurity</h3>
-                        <p>Protecting your digital assets with advanced security measures and protocols.</p>
-                    </div>
-                </div>
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <i class="fas fa-code"></i> <h3>Custom Software Development</h3>
+                <p>
+                    Building bespoke applications tailored precisely to your business needs, from enterprise solutions to niche tools, ensuring perfect functionality and scalability.
+                </p>
+                <a href="services.html#custom-software" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
-        </section>
 
-        <section id="portfolio" class="portfolio-section">
-            <div class="container">
-                <h2>Our Portfolio</h2>
-                <p class="subtitle">Explore our recent work and see how we bring ideas to life.</p>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="project-alpha.png" alt="Project Alpha Thumbnail">
-                    <h4>E-commerce Platform Redesign</h4>
-                    <p>A responsive e-commerce site with enhanced user experience and backend integration.</p>
-                    <a href="case-study-ecommerce.html" class="button small">View Case Study</a>
-                </div>
-                <div class="portfolio-item">
-                    <img src="project-beta.png" alt="Project Beta Thumbnail">
-                    <h4>Custom CRM System</h4>
-                    <p>Developed a tailored CRM solution to streamline sales processes and client management.</p>
-                    <a href="case-study-crm.html" class="button small">View Case Study</a>
-                </div>
-                <div class="portfolio-item">
-                    <img src="project-gamma.png" alt="Project Gamma Thumbnail">
-                    <h4>Mobile Healthcare App</h4>
-                    <p>A secure, intuitive mobile application for patient management and virtual consultations.</p>
-                    <a href="case-study-healthcare-app.html" class="button small">View Case Study</a>
-                </div>
-                <div class="portfolio-item">
-                    <img src="project-delta.png" alt="Project Delta Thumbnail">
-                    <h4>Logistics Management System</h4>
-                    <p>Optimized supply chain operations with real-time tracking and route optimization.</p>
-                    <a href="case-study-logistics.html" class="button small">View Case Study</a>
-                </div>
-                <div class="portfolio-item">
-                    <img src="project-epsilon.png" alt="Project Epsilon Thumbnail">
-                    <h4>AI-Powered Chatbot Integration</h4>
-                    <p>Integrated an intelligent chatbot solution to enhance customer service and support.</p>
-                    <a href="case-study-chatbot.html" class="button small">View Case Study</a>
-                </div>
-                <div class="portfolio-item">
-                    <img src="project-zeta.png" alt="Project Zeta Thumbnail">
-                    <h4>Educational Portal Development</h4>
-                    <p>Designed and built an interactive online learning platform with user management.</p>
-                    <a href="case-study-education-portal.html" class="button small">View Case Study</a>
-                </div>
-                </div>
-             <div style="text-align: center; margin-top: 30px;">
-                <a href="all-projects.html" class="button primary">View All Projects</a>
+            <div class="service-card">
+                <i class="fas fa-globe"></i>
+                <h3>Web Design & Development</h3>
+                <p>
+                    Crafting responsive, high-performing websites and web applications that engage your audience and drive conversions, from simple sites to complex portals.
+                </p>
+                <a href="services.html#web-development" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
             </div>
-        </section>
+
+            <div class="service-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile App Development</h3>
+                <p>
+                    Creating intuitive and robust mobile applications for iOS and Android, ensuring seamless user experiences and powerful functionality on the go.
+                </p>
+                <a href="services.html#mobile-apps" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud Solutions & Consulting</h3>
+                <p>
+                    Guiding your journey to the cloud with strategic consulting, seamless migration, and optimized cloud infrastructure management on platforms like AWS, Azure, and Google Cloud.
+                </p>
+                <a href="services.html#cloud-solutions" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-lightbulb"></i>
+                <h3>IT Consulting & Strategy</h3>
+                <p>
+                    Providing expert advice and strategic roadmaps to optimize your IT infrastructure, enhance cybersecurity, and align technology with your business goals.
+                </p>
+                <a href="services.html#it-consulting" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-pencil-ruler"></i>
+                <h3>UI/UX Design</h3>
+                <p>
+                    Crafting intuitive and engaging user interfaces (UI) and exceptional user experiences (UX) that ensure your digital products are both beautiful and highly usable.
+                </p>
+                <a href="services.html#ui-ux-design" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+        </div>
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="services.html" class="button primary">View All Our Comprehensive Services</a>
+        </div>
+    </div>
+</section>
+        <section id="portfolio" class="portfolio-section">
+    <div class="container">
+        <h2>Our Success Stories</h2> <p class="subtitle">
+            Discover how we've empowered businesses with innovative, results-driven IT solutions. Each project reflects our commitment to excellence and client success.
+        </p>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="images/project-alpha.png" alt="E-commerce Platform Thumbnail">
+                <h4>E-commerce Platform Redesign</h4>
+                <p>
+                    Transformed an outdated e-commerce site into a high-performance, mobile-responsive platform, leading to increased conversions and improved user engagement.
+                </p>
+                <a href="case-study-ecommerce.html" class="button small">View Case Study</a>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/project-beta.png" alt="Project Beta Thumbnail">
+                <h4>Custom CRM for Streamlined Operations</h4>
+                <p>
+                    Developed a bespoke CRM solution that automated sales workflows, centralized client data, and significantly boosted team productivity for a B2B service provider.
+                </p>
+                <a href="case-study-crm.html" class="button small">View Case Study</a>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/project-gamma.png" alt="Project Gamma Thumbnail">
+                <h4>Secure Telemedicine Mobile App</h4>
+                <p>
+                    Engineered a robust and intuitive mobile application for secure patient management and seamless virtual consultations, enhancing access to healthcare services.
+                </p>
+                <a href="case-study-healthcare-app.html" class="button small">View Case Study</a>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/project-delta.png" alt="Project Delta Thumbnail">
+                <h4>Automated Logistics Management System</h4>
+                <p>
+                    Implemented a comprehensive system that optimized supply chain operations with real-time tracking, intelligent routing, and inventory control for a logistics firm.
+                </p>
+                <a href="case-study-logistics.html" class="button small">View Case Study</a>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/project-epsilon.png" alt="Project Epsilon Thumbnail">
+                <h4>AI-Powered Customer Support Chatbot</h4>
+                <p>
+                    Integrated an intelligent, AI-driven chatbot solution that significantly improved customer service response times and reduced support team workload.
+                </p>
+                <a href="case-study-chatbot.html" class="button small">View Case Study</a>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/project-zeta.png" alt="Project Zeta Thumbnail">
+                <h4>Interactive Online Learning Portal</h4>
+                <p>
+                    Designed and built an engaging educational platform with advanced user management and course delivery features, enhancing the e-learning experience.
+                </p>
+                <a href="case-study-education-portal.html" class="button small">View Case Study</a>
+            </div>
+            </div>
+        <div style="text-align: center; margin-top: 50px;"> <a href="all-projects.html" class="button primary">View All Our Projects & Case Studies</a>
+        </div>
+    </div>
+</section>
 
     </main>
 
